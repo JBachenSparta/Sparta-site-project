@@ -1,0 +1,19 @@
+header {
+  background-color: blue;
+}
+
+main{
+  background-color: green;
+}
+
+footer {
+  background-color: yellow;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+main.row{
+  text-align: center;
+}
