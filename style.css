@@ -1,39 +1,17 @@
-.testimage {
-  width: 100%;
-  height: auto;
-  margin-top: 60px;
-  background: linear-gradient(#004092, #020202, transparent), url("../img/mountains.jpg") no-repeat center;
-  box-shadow: 0px 10px 20px -5px rgba(0,0,0,.8);
-}
-
-.testimage.img{
-  width: 100%;
-  height: auto;
-
-}
-
 .navbar {
-border-radius: 0px;
-margin-bottom: 0px;
+  border-radius: 0px;
+  margin-bottom: 0px;
 }
-
-
-
 
 .navbar-brand, navbar{
-height: auto;
-padding: 0px;
+  height: auto;
+  padding: 0px;
 }
 
 .navbar-brand img {
   height: 40px;
   width: auto;
   padding: 5px;
-}
-
-body {
-  background-color: lightgrey;
-  border: 0px;
 }
 
 header {
@@ -49,7 +27,6 @@ header {
   width:100%;
 }
 
-
 .jumbotron h1{
   color: #ffe7d6;
   padding-left: 10%;
@@ -62,24 +39,17 @@ header {
   padding-right: 10%;
 }
 
-
+body {
+  background-color: lightgrey;
+  border: 0px;
+}
 
 main{
   margin-bottom: 50px;
 }
 
-.row1{
-border-top: solid 1px slategrey;
-border-left: solid 1px slategrey;
-margin: 6%;
-background-image: linear-gradient(to bottom right, rgba(255, 231, 214, 0.5)0%, rgba(196, 218, 255, 0)50%);
-}
-
-.row2{
-border-top: solid 1px slategrey;
-border-right: solid 1px slategrey;
-margin: 6%;
-background-image: linear-gradient(to bottom left, rgba(255, 231, 214, 0.5)0%, rgba(196, 218, 255, 0)50%);
+h1 {
+  font-size: 100px;
 }
 
 h2.eg {
@@ -92,25 +62,45 @@ h2 {
   font-weight: bold;
 }
 
+.row1{
+  border-top: solid 1px slategrey;
+  border-left: solid 1px slategrey;
+  margin: 6%;
+  background-image: linear-gradient(to bottom right, rgba(255, 231, 214, 0.5)0%, rgba(196, 218, 255, 0)50%);
+}
+
+.row2{
+  border-top: solid 1px slategrey;
+  border-right: solid 1px slategrey;
+  margin: 6%;
+  background-image: linear-gradient(to bottom left, rgba(255, 231, 214, 0.5)0%, rgba(196, 218, 255, 0)50%);
+}
+
 a {
    color: inherit;
   }
+
 a:hover{
   text-decoration:none;
   cursor:pointer;
-
 }
 
-footer {
-
+.testimage {
+  width: 100%;
+  height: auto;
+  margin-top: 60px;
+  background: linear-gradient(#004092, #020202, transparent), url("../img/mountains.jpg") no-repeat center;
+  box-shadow: 0px 10px 20px -5px rgba(0,0,0,.8);
 }
 
-h1 {
-  font-size: 100px;
+.testimage.img{
+  width: 100%;
+  height: auto;
 }
+
 /* Media queries and responsive design */
 @media screen and (max-width: 1200px){
-    .testimage {
+  .testimage {
       margin: 5%;
       width: 90%;
       height: auto;
@@ -124,5 +114,4 @@ h1 {
   ul li a{
     display: inline-block;
   }
-
 }
