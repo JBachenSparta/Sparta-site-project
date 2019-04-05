@@ -1,0 +1,117 @@
+.navbar {
+  border-radius: 0px;
+  margin-bottom: 0px;
+}
+
+.navbar-brand, navbar{
+  height: auto;
+  padding: 0px;
+}
+
+.navbar-brand img {
+  height: 40px;
+  width: auto;
+  padding: 5px;
+}
+
+header {
+  margin-top: 0px;
+  text-align: left;
+}
+
+.jumbotron {
+  background:linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1) ), url("images/guitar1.jpg") no-repeat;
+  background-size: cover;
+  background-position: top center;
+  height: 650px;
+  width:100%;
+}
+
+.jumbotron h1{
+  color: #ffe7d6;
+  padding-left: 10%;
+  font-size: 10em;
+  font-weight: bold;
+}
+
+.jumbotron small{
+  color: #ffa566;
+  padding-right: 10%;
+}
+
+body {
+  background-color: lightgrey;
+  border: 0px;
+}
+
+main{
+  margin-bottom: 50px;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+h2.eg {
+  font-size: 6em;
+  margin-bottom: -3%;
+}
+
+h2 {
+  margin-left: 6%;
+  font-weight: bold;
+}
+
+.row1{
+  border-top: solid 1px slategrey;
+  border-left: solid 1px slategrey;
+  margin: 6%;
+  background-image: linear-gradient(to bottom right, rgba(255, 231, 214, 0.5)0%, rgba(196, 218, 255, 0)50%);
+}
+
+.row2{
+  border-top: solid 1px slategrey;
+  border-right: solid 1px slategrey;
+  margin: 6%;
+  background-image: linear-gradient(to bottom left, rgba(255, 231, 214, 0.5)0%, rgba(196, 218, 255, 0)50%);
+}
+
+a {
+   color: inherit;
+  }
+
+a:hover{
+  text-decoration:none;
+  cursor:pointer;
+}
+
+.testimage {
+  width: 100%;
+  height: auto;
+  margin-top: 60px;
+  background: linear-gradient(#004092, #020202, transparent), url("../img/mountains.jpg") no-repeat center;
+  box-shadow: 0px 10px 20px -5px rgba(0,0,0,.8);
+}
+
+.testimage.img{
+  width: 100%;
+  height: auto;
+}
+
+/* Media queries and responsive design */
+@media screen and (max-width: 1200px){
+  .testimage {
+      margin: 5%;
+      width: 90%;
+      height: auto;
+  }
+  .jumbotron h1{
+    font-size: 8em;
+  }
+}
+
+@media screen and (max-width: 768px){
+  ul li a{
+    display: inline-block;
+  }
+}
